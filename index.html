@@ -19,30 +19,30 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">Hello World&nbsp;</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <section class="portfolio-block block-intro" style="width: 100%;height: 600px;background-image: url(&quot;assets/img/cover_photo.jpg&quot;);background-size: cover;background-repeat: no-repeat;">
-        <div class="container">
-            <div class="avatar" style="background-image: url(&quot;assets/img/piccc.png&quot;);background-position: 60%;filter: brightness(107%) contrast(92%);margin: 60px 480px 30px;"></div>
-            <div class="about-me">
-                <p style="color: #ffffff;">Hi! I am&nbsp;<strong>Nur Syafiqah</strong>, a 2nd year Information Systems undergraduate from Singapore Management University.&nbsp;</p><a class="btn btn-outline-primary" role="button" href="index.html#about">About me</a></div>
-        </div>
-    </section>
     <main class="page lanidng-page">
-        <section id="about" class="portfolio-block skills">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+            <div class="container"><a class="navbar-brand logo" href="#">&lt;/&gt;</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navbarNav">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="portfolio-block block-intro" style="background: url(assets/img/main.jpg) no-repeat;background-size: cover;">
+            <div class="container">
+                <div class="avatar" style="background-image: url(&quot;assets/img/piccc.png&quot;);background-position: 60%;filter: brightness(107%) contrast(92%);margin: 60px 480px 30px;"></div>
+                <div class="about-me">
+                    <p style="color: rgb(255,255,255);">Hi! I am <strong>Nur Syafiqah</strong>, a 2nd year Information Systems undergraduate from Singapore Management University.&nbsp;</p><a class="btn btn-outline-primary" role="button" href="#aboutme">About me</a></div>
+            </div>
+        </section>
+        <section class="portfolio-block skills">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 offset-md-1 offset-lg-1 info">
-                    <h3>About Me</h3>
+                    <h3 id="aboutme">About Me</h3>
                     <p>I am pursuing my undergraduate studies in Information Systems at Singapore Management University. I found my interest in technology from the innovations that started to spring up as I was growing up. I took the leap of faith and decided
                         to pursue my studies in information systems and never regretted my choice!&nbsp;</p>
                     <p>Currently, I am trying to hone my technical skills while exploring different areas where technology is relevant. I am also looking for internship opportunities where I can make an impact and extend my knowledge.</p>
@@ -60,10 +60,10 @@
                                 <p><i class="fa fa-linkedin" style="font-size: 30px;color: #9e91c6;"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/nursyafiqah-mohdraihan/" style="padding: 14px;">nursyafiqah-mohdraihan</a></p>
                             </li>
                             <li class="list-group-item bg-white border-white shadow-none" style="height: 60px;">
-                                <p><i class="fa fa-github" style="font-size: 30px;color: #9e91c6;"></i>&nbsp;&nbsp;<a href="#" style="padding: 14px;">github.com/syafiqahmr</a></p>
+                                <p><i class="fa fa-github" style="font-size: 30px;color: #9e91c6;"></i>&nbsp;&nbsp;<a href="github.com/syafiqahmr" style="padding: 14px;">github.com/syafiqahmr</a></p>
                             </li>
                             <li class="list-group-item bg-white border-white shadow-none" style="height: 60px;">
-                                <p><i class="fa fa-envelope-o" style="font-size: 25px;color: #9e91c6;"></i>&nbsp;&nbsp;<a href="mailto:syafiqahmr.2018@sis.smu.edu.sg" style="padding: 14px;">syafiqahmr.2018@sis.smu.edu.sg</a></p>
+                                <p><i class="fa fa-envelope-o" style="font-size: 25px;color: #9e91c6;"></i>&nbsp;&nbsp;<a href="syafiqahmr.2018@sis.smu.edu.sg" style="padding: 14px;">syafiqahmr.2018@sis.smu.edu.sg</a></p>
                             </li>
                         </ul>
                     </section>
@@ -84,8 +84,7 @@
                             <li>Python (Flask, Pandas),</li>
                             <li>JavaScript (JQuery),</li>
                             <li>HTML, PHP, Java</li>
-                        </ul>
-                    </div>
+                        </ul><a class="learn-more" href="cv.html#programminglanguages">Learn more »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-clock-o icon"></i>
@@ -94,26 +93,24 @@
                             <li>mySQL, AWS EC2,</li>
                             <li>AMQP, Github,</li>
                             <li>Tableau</li>
-                        </ul>
-                    </div>
+                        </ul><a class="learn-more" href="cv.html#programminglanguages">Learn more »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-list-alt icon"></i>
                         <h3 class="name">Certifications</h3>
                         <ul class="list-unstyled" style="opacity: 1;color: rgb(125,130,133);">
-                            <li>SDSA Core Foundation for Data Science,<br></li>
-                            <li>Hackwagon - DS102 Data Analytics with Python (Distinction)<br></li>
+                            <li>Harvard's CS50 Intro to AI,<br></li>
+                            <li>Hackwagon DS102 Data Analytics with Python<br></li>
                             <li></li>
-                        </ul>
-                    </div>
+                        </ul><a class="learn-more" href="cv.html#programminglanguages">Learn more »</a></div>
                 </div>
             </div>
         </div>
     </div>
     <footer class="page-footer">
         <div class="container">
-            <div class="links"><a href="index.html#about">About me</a><a href="index.html#about">Contact me</a><a href="projects.html">Projects</a><a href="cv.html">CV</a></div>
-            <div class="social-icons"><a href="https://www.linkedin.com/in/nursyafiqah-mohdraihan/"><i class="icon ion-social-linkedin-outline"></i></a><a href="mailto:syafiqahmr.2018@sis.smu.edu.sg"><i class="icon ion-ios-email"></i></a></div>
+            <div class="links"><a href="index.html">About me</a><a href="cv.html">CV</a><a href="projects.html">Projects</a></div>
+            <div class="social-icons"><a href="https://www.linkedin.com/in/nursyafiqah-mohdraihan/"><i class="icon ion-social-linkedin-outline"></i></a><a href="syafiqahmr.2018@sis.smu.edu.sg"><i class="icon ion-email"></i></a><a href="github.com/syafiqahmr"><i class="icon ion-social-github"></i></a></div>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
